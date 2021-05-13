@@ -9,10 +9,10 @@ about.addEventListener("click", () => {
         title: "ahum/about-Me",
         width: "400px",
         height: "400px",
-        top: 50,
-        right: 50,
-        bottom: 50,
-        left: 50,
+        top: 10,
+        right: 10,
+        bottom: 10,
+        left: 10,
         mount: aboutContent,
         onfocus: function(){
             this.setBackground('#00aa00')
@@ -28,10 +28,10 @@ contact.addEventListener("click", () => {
         background: "#00aa00",
         width: "400px",
         height: "400px",
-        top: 50,
-        right: 50,
-        bottom: 50,
-        left: 250,
+        top: 15,
+        right: 10,
+        bottom: 10,
+        left: 10,
         mount: contactContent,
         onfocus: function(){
             this.setBackground('#00aa00')
